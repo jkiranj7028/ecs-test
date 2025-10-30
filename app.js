@@ -6,7 +6,7 @@ const PORT = 8080;
 
 app.get('/', (req, res) => {
     console.log(`Request received by container: ${os.hostname()}`);
-    res.send(`Hello from a container! My ID is: ${os.hostname()}\n`);
+    res.send(`Hello from a container!  My ID is: ${os.hostname()}\n`);
 });
 
 app.listen(PORT, () => {
